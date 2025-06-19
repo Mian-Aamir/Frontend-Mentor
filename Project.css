@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(213, 226, 240);
+    font-family: cursive;
+    text-align: center;
+}
+
+.box{
+    background-color: white;
+    width: 100%;
+    max-width: 334px;
+    height: 520px;
+    border-radius: 20px;
+    box-shadow: 2px 10px 8px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    margin: auto;
+    inset:0;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+h3{
+    text-align: center;
+}
+
+@media (max-width:370px)
+{
+    .box{
+        max-width: 304px;
+    }
+}
