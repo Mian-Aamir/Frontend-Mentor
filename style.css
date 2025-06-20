@@ -1,11 +1,17 @@
+:root {
+  --main-bg-color: rgb(213, 226, 240);
+  --box-color: white;
+  --font-color: #2c3e50;
+}
+
 body{
-    background-color: rgb(213, 226, 240);
+    background-color: var(--main-bg-color);
     font-family: cursive;
     text-align: center;
 }
 
 .box{
-    background-color: white;
+    background-color: var(--box-color);
     width: 100%;
     max-width: 334px;
     height: 520px;
@@ -23,8 +29,13 @@ img{
     border-radius: 15px;
 }
 
-h3{
+h2{
     text-align: center;
+    color:var(--font-color);
+}
+
+p{
+    color: var(--font-color);
 }
 
 @media (max-width:370px)
